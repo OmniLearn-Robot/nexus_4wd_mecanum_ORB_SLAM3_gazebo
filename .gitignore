@@ -6,6 +6,26 @@ __pycache__/
 # C extensions
 *.so
 
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gazebo
+~/.gazebo/
+*.world~
+*.state
+
+# ROS bags
+*.bag
+*.bag.active
+*.bag.tmp
+
 # Distribution / packaging
 .Python
 build/
