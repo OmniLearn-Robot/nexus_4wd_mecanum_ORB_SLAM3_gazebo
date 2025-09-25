@@ -6,8 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-#cmakelist
-cmakelist.txt
 
 # IDE / editors
 .vscode/
