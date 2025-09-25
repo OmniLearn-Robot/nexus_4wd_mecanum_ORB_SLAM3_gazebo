@@ -1,0 +1,14 @@
+<launch>
+  <!-- Load empty Gazebo world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- Spawn robot ke Gazebo -->
+  <include file="$(find nexus_4wd_mecanum_gazebo)/launch/spawn_one_nexus_4wd_mecanum.launch"/>
+</launch>
+
